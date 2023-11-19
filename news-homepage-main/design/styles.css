@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-part {
+  border-style: solid;
+  margin: 80px 50px 60px 80px;
+  padding-top: 10px;
+  padding-right: 80px;
+  height: 700px;
+  padding-bottom: 200px;
+}
+.navigation_main {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.navigation_main svg {
+  margin: 70px 50px;
+  width: 120px;
+}
+.navigation_items {
+  justify-content: flex-end;
+  margin-right: 5px;
+  float: right;
+  margin-top: 85px;
+  margin-bottom: 50px;
+}
+.active {
+  color: red;
+}
+
+/* Basic styling for the navbar */
+nav {
+  overflow: hidden;
+}
+
+nav a {
+  color: gray;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: 800;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+.mid-section {
+  margin-top: 0px;
+}
+.mid-section img {
+  margin-left: 72px;
+  width: 560px;
+}
+.mid-section-sidebar {
+  background-color: black;
+  float: right;
+  margin-left: 20px;
+  height: 100px;
+  width: 285px;
+  padding-bottom: 400px;
+  padding-right: 50px;
+  margin-right: 85px;
+  margin-bottom: 0;
+  padding-top: 5px;
+  padding-left: 2px;
+}
+.mid-section-sidebar h1 {
+  color: orange;
+  font-weight: 700;
+  margin-left: 40px;
+  padding-right: 15px;
+}
+.mid-section-sidebar h2 {
+  color: white;
+  margin-left: 40px;
+  border-bottom: none;
+  margin-top: 15px;
+  font-weight: 200;
+  width: 380px;
+}
+.mid-section-sidebar p {
+  color: white;
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+.mid-section2 {
+  display: flex;
+  margin-top: 15px;
+}
+.mid-section2 h1 {
+  font-weight: 900;
+  width: 500px;
+  padding-left: 70px;
+  padding-right: 2px;
+}
+
+.mid-section2-content {
+  margin-left: 25px;
+  margin-top: 2px;
+  float: right;
+}
+.mid-section2-content p {
+  padding-right: 8px;
+  margin-top: 20px;
+  margin-right: 50px;
+  color: gray;
+  word-spacing: 1px;
+}
+.mid-section2-content-btn {
+  color: white;
+  background-color: rgb(238, 26, 26);
+  padding: 10px 25px;
+  border: none;
+}
+.main-part-footer {
+  margin: 70px 120px 80px 70px;
+  display: flex;
+  align-items: center;
+}
+.main-part-footer-retro {
+  display: flex;
+
+  margin-top: 55px;
+}
+.main-part-footer-retro-content {
+  margin-right: 2px;
+  padding-left: 10px;
+}
+.main-part-footer-retro img {
+  height: 140px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  max-width: 100%;
+}
+
+.main-part-footer-retro-content h1 {
+  color: gray;
+  font-weight: 700;
+  margin-bottom: 1px;
+  padding-left: 10px;
+  margin-right: 80px;
+}
+.main-part-footer-retro-content h2 {
+  color: black;
+  margin-right: 40px;
+  padding-left: 7px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 280px;
+}
+.main-part-footer-retro-content p {
+  color: gray;
+  margin-top: 1px;
+  margin-left: 0;
+  width: 200px;
+  margin-right: 60px;
+  word-spacing: 2px;
+}
+.main-part-footer-laptops {
+  display: flex;
+
+  margin-top: 55px;
+}
+.main-part-footer-laptops-content {
+  margin-right: 50px;
+  padding-left: 10px;
+}
+.main-part-footer-laptops img {
+  height: 140px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  max-width: 100%;
+}
+
+.main-part-footer-laptops-content h1 {
+  color: gray;
+  font-weight: 700;
+  margin-bottom: 25px;
+  padding-left: 10px;
+  margin-right: 80px;
+}
+.main-part-footer-laptops-content h2 {
+  color: black;
+  margin-right: 40px;
+  padding-left: 7px;
+  margin-top: 2px;
+  margin-bottom: 25px;
+  width: 280px;
+}
+.main-part-footer-laptops-content p {
+  color: gray;
+  margin-top: 1px;
+  margin-left: 0;
+  width: 200px;
+  margin-right: 60px;
+  word-spacing: 2px;
+}
+.main-part-footer-growth {
+  display: flex;
+
+  margin-top: 55px;
+}
+.main-part-footer-growth-content {
+  margin-right: 50px;
+  padding-left: 10px;
+}
+.main-part-footer-growth img {
+  height: 140px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  max-width: 100%;
+}
+
+.main-part-footer-growth-content h1 {
+  color: gray;
+  font-weight: 700;
+  margin-bottom: 25px;
+  padding-left: 10px;
+  margin-right: 80px;
+}
+.main-part-footer-growth-content h2 {
+  color: black;
+  margin-right: 40px;
+  padding-left: 7px;
+  margin-top: 2px;
+  margin-bottom: 25px;
+  width: 280px;
+}
+.main-part-footer-growth-content p {
+  color: gray;
+  margin-top: 1px;
+  margin-left: 0;
+  width: 200px;
+  margin-right: 60px;
+  word-spacing: 2px;
+}
